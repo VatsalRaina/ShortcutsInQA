@@ -93,8 +93,7 @@ def main(args):
     count = 0
 
     for item in train_data:
-        # context = item["article"]
-        context = "unavailable"
+        context = item["article"]
         questions = item["questions"]
         answers = item["answers"]
         options = item["options"]
