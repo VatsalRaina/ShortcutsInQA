@@ -71,7 +71,7 @@ def main(args):
 
     for item in test_data:
         context = item["article"]
-        if 'Emma' not in context or 'emma' not in context:
+        if 'Emma' not in context:
             continue
         context = context.replace('Emma', 'David').replace('emma', 'david')
         questions = item["questions"]
